@@ -1,0 +1,22 @@
+{% load static %}
+<html>
+
+
+<head>
+    <title>manyanyes's calclator</title>
+    <link rel="stylesheet" href="{% static 'style/home.css' %}">
+</head>
+
+<body>
+    <h1 class="heading">Welcome to my calculator</h1>
+
+    <div class="intro">
+        <center>
+            <a href="{% url 'calc' %}">
+            <button> Start Calculating </button>
+            </a>
+        </center>
+    </div>
+
+</body>
+</html>
